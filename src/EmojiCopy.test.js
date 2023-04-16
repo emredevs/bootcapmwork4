@@ -14,6 +14,6 @@ describe("Emoji copy", () => {
     userEvent.click(listElement);
     expect(
       listElement.parentElement.getAttribute("data-clipboard-text")
-    ).toMatch("😀");
+    ).toMatch("💯");
   });
 });
